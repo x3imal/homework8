@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
-        //task3();
+        task3();
         //task4();
 
     }
@@ -44,6 +44,32 @@ public class Main {
                 break;
             }
             System.out.print(nums1[i] + ", ");
+        }
+
+        byte[] nums2 = new byte[3];
+        System.out.println(Arrays.toString(nums2));
+
+    }
+
+    public static void task3() {
+        System.out.println("Задача 3");
+
+        int[] nums3 = new int[]{1, 2, 3};
+        for (int i = nums3.length - 1; i >= 0; i--) {
+            if (i == nums3.length - 3) {
+                System.out.println(nums3[i] + " ");
+                break;
+            }
+            System.out.print(nums3[i] + ", ");
+        }
+
+        float[] nums4 =  {1.57f, 7.654f, 9.986f};
+        for (int i = nums3.length - 1; i >= 0; i--) {
+            if(i == nums3.length - 3) {
+                System.out.println(nums4[i] + " ");
+                break;
+            }
+            System.out.print(nums4[i] + ", ");
         }
     }
 }
