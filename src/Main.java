@@ -5,7 +5,7 @@ public class Main {
         task1();
         task2();
         task3();
-        //task4();
+        task4();
 
     }
 
@@ -72,6 +72,19 @@ public class Main {
             System.out.print(nums4[i] + ", ");
         }
     }
+
+    public static void task4(){
+        System.out.println("Задача 4");
+
+        int[] nums6 = new int[] {1, 2, 3};
+        for (int i = 0; i < nums6.length; i++) {
+            if(nums6[i] % 2 != 0) {
+                nums6[i] = nums6[i] + 1;
+            }
+        }
+        System.out.println(Arrays.toString(nums6));
+    }
 }
+
 
 
